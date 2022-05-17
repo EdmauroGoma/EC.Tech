@@ -10,7 +10,7 @@ export default function Footer() {
          <h2>Entre em Contacto conosco e <br/> faça o seu orçamento</h2>
          <div>
            <button>Preços</button>
-           <button>Orçamento</button>
+           <button><a href="https://wa.me/244948854213">Orçamento</a></button>
          </div>
        </div>
 

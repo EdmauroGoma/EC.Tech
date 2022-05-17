@@ -27,18 +27,18 @@ export default function Home() {
        </div>
 
        <div className={styles.secItems2}>
-       <Image src="/../public/images/seguranca.png" width={200} height={150} alt="Segurança Electrônica image"></Image>
-         <h4>Segurança Electrônica</h4>
+       <Image src="/../public/images/seguranca.png" width={300} height={160} alt="Segurança Electrônica image"></Image>
+         <h4>    Segurança Electrônica     </h4>
        </div>
 
        <div className={styles.secItems3}>
        <Image src="/../public/images/programming.png" width={300} height={160} alt="Programming image"></Image>
-         <h4>Desenvolvimento de Sistemas Web e Mobile</h4>
+         <h4>Desenvolvimento de <br/>Sistemas Web e Mobile</h4>
        </div>
 
        <div className={styles.secItems4}>
        <Image src="/../public/images/startup.png" width={300} height={140} alt="Marketing image"></Image>
-        <h4>Marketing Digital e Consultadoria de Projetos</h4> 
+        <h4>Marketing Digital e <br/> Consultadoria de Projetos</h4> 
        </div>
      </div>
 

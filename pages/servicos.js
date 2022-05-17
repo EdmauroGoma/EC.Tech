@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function servicos() {
 
   const PageContainer = styled.div`
-  margin-top: -80px;
+  margin-top: -50px;
   `;
 
   const PageHeader = styled.div`
@@ -28,11 +28,22 @@ export default function servicos() {
 
   const PageSection = styled.div`
   width: 100%;
-  height: 60vh;
+  max-height: max-content;
   display: flex;
   margin: 10px;
   align-items: center;
   justify-content: center;
+
+  @media(max-width: 470px){
+  width: 100%;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  align-items: center;
+  justify-content: right;
+  
+  }
   `;
 
     const PageBox1 = styled.div`
@@ -42,6 +53,17 @@ export default function servicos() {
     > h3 {
       color: gray;
       font-weight: 300;
+  }
+
+  @media(max-width: 470px){
+  width: 100%;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  align-items: center;
+  justify-content: right;
+  
   }
     `;
 
@@ -53,7 +75,18 @@ export default function servicos() {
       color: gray;
       font-weight: 300;
   }
-    `;
+   
+  @media(max-width: 470px){
+  width: 100%;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  align-items: center;
+  justify-content: right;
+  
+  }
+   `;
 
     const PageBox3 = styled.div`
     width: 20%;
@@ -62,6 +95,17 @@ export default function servicos() {
     > h3 {
       color: gray;
       font-weight: 300;
+  }
+
+  @media(max-width: 470px){
+  width: 100%;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  align-items: center;
+  justify-content: right;
+  
   }
     `;
 
@@ -72,47 +116,19 @@ export default function servicos() {
     > h3 {
       color: gray;
       font-weight: 300;
-  }`;
-
-
-  const PageFooter = styled.div`
+  }
+  @media(max-width: 470px){
   width: 100%;
-  height: 40vh;
-  background-color: #191d31ec;
+  max-height: max-content;
   display: flex;
+  flex-direction: column;
+  font-size: 1em;
   align-items: center;
-  justify-content: center;
-  text-align: justify;
-  color: rgb(187, 182, 182);
-  text-align: justify;
-  `;
-
-  const FooterList1 = styled.div`
-  align-items: center;
-  justify-content: center;
-  list-style: none;
+  justify-content: right;
   
+  }
   `;
 
-  const FooterList2 = styled.div`
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  `;
-
-  const FooterList3 = styled.div`
-  align-items: center;
-  justify-content: center;
-  `;
-
-  const FooterCopy = styled.div`
-  width: 100%;
-  height: 5vh;
-  text-align: center;
-  color: gray;
-  background: #191d31ec;
-  margin-top: -21px;
-  `;
 
   const PageText = styled.div`
   >h2{

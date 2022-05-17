@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function Empresa() {
 
   const PageContainer = styled.div`
-  margin-top: -80px;
+  margin-top: -60px;
   `;
 
   const PageHeader = styled.div`
@@ -33,6 +33,17 @@ export default function Empresa() {
   margin: 10px;
   align-items: center;
   justify-content: center;
+
+  @media(max-width: 470px){
+  width: 100%;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  align-items: center;
+  justify-content: right;
+  
+  }
   `;
 
     const PageBox1 = styled.div`
