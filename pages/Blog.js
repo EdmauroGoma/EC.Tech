@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function Blog() {
 
   const PageContainer = styled.div`
-  margin-top: -40px;
+  margin-top: -30px;
   @media(max-width: 470px){
   display: flex;
   flex-direction: column;

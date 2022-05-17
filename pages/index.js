@@ -2,6 +2,11 @@ import styles from '../styles/Home.module.css'
 import Navbar from './components/Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
+import networking from '../public/images/networking.png'
+import seguranca from '../public/images/seguranca.png'
+import programming from '../public/images/programming.png'
+import startup from '../public/images/startup.png'
+import feedback from '../public/images/feedback.png'
 
 
 export default function Home() {
@@ -11,7 +16,7 @@ export default function Home() {
    <>
    <Navbar />
    <div className={styles.HomeContainer}>
-     
+
      <div className={styles.Header}>
        <h4>Empoderamos o crescimento da sua Empresa na Internet</h4>
         <p>Somos uma Startup Angolana que tem como objectivo <br/> prover serviços tecnologicos para Empresas e Pessoas Singulares que possuem ideias
@@ -22,29 +27,29 @@ export default function Home() {
      <div className={styles.section}>
 
        <div className={styles.secItems1}>
-       <Image src="/../public/images/networking.png" width={300} height={170} alt="Redes Computadores image"></Image>
+       <Image src={networking} width={300} height={170} alt="Redes Computadores image"></Image>
          <h4>Redes de Computadores</h4>
        </div>
 
        <div className={styles.secItems2}>
-       <Image src="/../public/images/seguranca.png" width={300} height={160} alt="Segurança Electrônica image"></Image>
+       <Image src={seguranca} width={300} height={160} alt="Segurança Electrônica image"></Image>
          <h4>    Segurança Electrônica     </h4>
        </div>
 
        <div className={styles.secItems3}>
-       <Image src="/../public/images/programming.png" width={300} height={160} alt="Programming image"></Image>
+       <Image src={programming} width={300} height={160} alt="Programming image"></Image>
          <h4>Desenvolvimento de <br/>Sistemas Web e Mobile</h4>
        </div>
 
        <div className={styles.secItems4}>
-       <Image src="/../public/images/startup.png" width={300} height={140} alt="Marketing image"></Image>
-        <h4>Marketing Digital e <br/> Consultadoria de Projetos</h4> 
+       <Image src={startup} width={300} height={140} alt="Marketing image"></Image>
+        <h4>Marketing Digital e <br/> Consultadoria de Projetos</h4>
        </div>
      </div>
 
      <div className={styles.article}>
         <h2>Feedback instantaneo <br/> com os Clientes</h2>
-        <Image src="/../public/images/feedback.png" height={400} width={400} alt="feedBack image"></Image>
+        <Image src={feedback} height={400} width={400} alt="feedBack image"></Image>
      </div>
 
      <div className={styles.footer}>

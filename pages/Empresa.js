@@ -3,6 +3,9 @@ import styled from "@emotion/styled";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "./components/Footer";
+import edmauro from '../public/images/edmauro.png'
+import clementino from '../public/images/clementino.png'
+
 
 export default function Empresa() {
 
@@ -131,7 +134,7 @@ export default function Empresa() {
   </PageText>
 <PageSection>
     <PageBox1>
-    <Image src="/../public/images/clementino.png" width={200} height={200} alt="Clementino image"></Image>
+    <Image src={clementino} width={200} height={200} alt="Clementino image"></Image>
         <h3><strong>Clementino Chieque</strong> <br/>
           Fundador <br/>
           Administrador de Redes <br/>
@@ -140,7 +143,7 @@ export default function Empresa() {
         
     </PageBox1>
     <PageBox2>
-    <Image src="/../public/images/edmauro.png" width={200} height={200} alt="Edmauro image"></Image>
+    <Image src={edmauro} width={200} height={200} alt="Edmauro image"></Image>
     <h3><strong>Edmauro Goma</strong><br/>
           Co-Fundador <br/>
           CTO <br/>

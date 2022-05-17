@@ -3,6 +3,11 @@ import Link from "next/link";
 import styled from '@emotion/styled'
 import Image from "next/image";
 import Footer from "./components/Footer";
+import networking from '../public/images/networking.png'
+import seguranca from '../public/images/seguranca.png'
+import programming from '../public/images/programming.png'
+import startup from '../public/images/startup.png'
+
 
 export default function servicos() {
 
@@ -42,7 +47,7 @@ export default function servicos() {
   font-size: 1em;
   align-items: center;
   justify-content: right;
-  
+
   }
   `;
 
@@ -63,7 +68,7 @@ export default function servicos() {
   font-size: 1em;
   align-items: center;
   justify-content: right;
-  
+
   }
     `;
 
@@ -75,7 +80,7 @@ export default function servicos() {
       color: gray;
       font-weight: 300;
   }
-   
+
   @media(max-width: 470px){
   width: 100%;
   max-height: max-content;
@@ -84,7 +89,7 @@ export default function servicos() {
   font-size: 1em;
   align-items: center;
   justify-content: right;
-  
+
   }
    `;
 
@@ -105,7 +110,7 @@ export default function servicos() {
   font-size: 1em;
   align-items: center;
   justify-content: right;
-  
+
   }
     `;
 
@@ -125,7 +130,7 @@ export default function servicos() {
   font-size: 1em;
   align-items: center;
   justify-content: right;
-  
+
   }
   `;
 
@@ -137,7 +142,7 @@ export default function servicos() {
       font-weight: 300;
   }
   `;
-  
+
 
   return (
     <>
@@ -155,19 +160,19 @@ export default function servicos() {
         </PageText>
       <PageSection>
           <PageBox1>
-          <Image src="/../public/images/networking.png" width={350} height={250} alt="Redes Computadores image"></Image>
+          <Image src={networking} width={350} height={250} alt="Redes Computadores image"></Image>
               <h3>Redes de Computadores</h3>
           </PageBox1>
           <PageBox2>
-          <Image src="/../public/images/seguranca.png" width={200} height={200} alt="Segurança Electrônica image"></Image>
+          <Image src={seguranca} width={200} height={200} alt="Segurança Electrônica image"></Image>
               <h3>Segurança Electrônica (CCTV) </h3>
           </PageBox2>
           <PageBox3>
-          <Image src="/../public/images/programming.png" width={400} height={300} alt="Programming image"></Image>
+          <Image src={programming} width={400} height={300} alt="Programming image"></Image>
               <h3>Desenvolvimento Web e Mobile</h3>
           </PageBox3>
           <PageBox4>
-              <Image src="/../public/images/startup.png" width={200} height={200} alt="Marketing image"></Image>
+              <Image src={startup} width={200} height={200} alt="Marketing image"></Image>
             <h3>Marketing Digital e Consultadoria de Projectos</h3>
           </PageBox4>
       </PageSection>
