@@ -28,11 +28,12 @@ export default function servicos() {
       color: #fff;
       text-align: center;
       justify-content: center;
-      padding-top: 90px;
+      padding-top: 80px;
   }
   @media (max-width: 470px){
-    font-size: 1em;
+    h4{font-size: 1.5em;
   }
+}
   `;
 
   const PageSection = styled.div`
