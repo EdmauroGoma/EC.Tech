@@ -28,7 +28,7 @@ export default function servicos() {
       color: #fff;
       text-align: center;
       justify-content: center;
-      padding-top: 80px;
+      padding-top: 60px;
   }
   @media (max-width: 470px){
     h4{font-size: 1.5em;
