@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import Link from "next/link";
-import { BsJustify } from "react-icons/bs";
+import { AiOutlineEnter } from "react-icons/ai";
 import Footer from "./components/Footer";
 
 export default function Menu() {
@@ -28,7 +28,8 @@ export default function Menu() {
   display: flex;
   flex-direction:column;
   margin-top: 40px;
-  background-color: red;
+  border: 1px solid white;
+  border-radius: 5px;
   `;
   
     return (
@@ -49,7 +50,7 @@ export default function Menu() {
                </div>
            </MenuItems>
                <Menu>
-                 <Link href="/"><a><BsJustify/></a></Link>
+                 <Link href="/"><a><AiOutlineEnter/></a></Link>
                </Menu>
        </MenuContainer>
        <Footer />
