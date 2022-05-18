@@ -184,3 +184,11 @@
         color: rgb(187, 182, 182);
         text-align: center;
     }
+
+    @media (max-width:470px){
+        @media (max-width: 470px){
+           .Header p{
+              font-size: 1em;
+            }
+        }
+    }

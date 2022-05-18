@@ -29,7 +29,7 @@ export default function Blog() {
       justify-content: center;
       padding-top: 150px; 
   }
-
+  
   @media(max-width: 470px){
   display: flex;
   flex-direction: column;
