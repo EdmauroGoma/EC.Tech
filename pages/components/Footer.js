@@ -1,5 +1,8 @@
 import Link from "next/link"
-import styles from '../../styles/Footer.module.css'
+import styles from '../../styles/footer.module.css'
+import logo from "../../public/images/logo.png"
+import Image from "next/image"
+
 
 export default function Footer() {
   return (
@@ -7,10 +10,11 @@ export default function Footer() {
 
 <div className={styles.footer}>
        <div className={styles.footerItems1}>
+           <Image src={logo}/>
          <h2>Entre em Contacto conosco e <br/> faça o seu orçamento</h2>
          <div>
-           <button>Preços</button>
-           <button><a href="https://wa.me/244948854213">Orçamento</a></button>
+           <button><a href="https://wa.me/244953529112">Preços</a></button>
+           <button><a href="https://wa.me/244953529112">Orçamento</a></button>
          </div>
        </div>
 

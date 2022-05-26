@@ -1,5 +1,5 @@
 {
-  "name": "admissionv1",
+  "name": "ectech",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,15 +11,18 @@
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@mui/material": "^5.6.4",
-    "framer-motion": "^6.3.3",
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-icons": "^4.3.1"
+    "@headlessui/react": "^1.6.3",
+    "next": "12.1.6",
+    "phosphor-react": "^1.4.1",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.2"
   },
   "devDependencies": {
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.4"
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }
