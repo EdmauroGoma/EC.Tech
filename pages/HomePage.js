@@ -192,26 +192,26 @@ export default function HomePage() {
         <HomeSection>
 
             <SectionItem>
-                <Image src={networking} />
+                <Image src={networking}  alt="imagem de Redes de computadores"/>
                 <h3>Redes de Computadores</h3>
                 <p>Prestamos os melhores serviços na montagem e manutenção da sua Redes de computadores
                     Serviços de manutenção e reparação de problemas por acesso remoto
                 </p>
             </SectionItem>
             <SectionItem>
-                <Image src={programming} width={300} height={160} />
+                <Image src={programming} width={300} height={160} alt="imagem de programação"/>
                 <h3>Desenvolvimento Web e Mobile</h3>
                 <p>Desenvolvemos sistemas de acordo a necessidade da sua empresa desde pequenos Websites a apicativos
                     com integração a API`S complexas tudo de acordo para que o seu negocio ganhe mais escalablidade
                 </p>
             </SectionItem>
             <SectionItem>
-                <Image src={startup} width={200} height={200}/>
+                <Image src={startup} width={200} height={200} alt="imagem de design"/>
                 <h3>Marketing Digital e Design</h3>
                 <p>Publicidade feita da melhor forma pode fazer com que o seu negocio ganhe mais escalablidade em questão de clientes</p>
             </SectionItem>
             <SectionItem>
-                <Image src={seguranca} width={200} height={200}/>
+                <Image src={seguranca} width={200} height={200} alt="imagem de cctv"/>
                 <h3>Circuito Televisivo de Segurança (CCTV)</h3>
                 <p>Prestamos tambem serviços de CCTV automatizado para a melhor Segurança do seu negocio</p>
             </SectionItem>
@@ -220,7 +220,7 @@ export default function HomePage() {
         <HomeSection2>
        <Title2><h1>Nosso Team</h1></Title2>
        <div>
-           <Image src={ilu3}  />
+           <Image src={ilu3}  alt="imagem de ilustração" />
        </div>
             <Text><p>
                 Somos formados por tecnicos ambiciosos com foco em soluções tecnologicas
@@ -251,7 +251,7 @@ export default function HomePage() {
             </Text>
             <Boxs>
             <Box1>
-                    <Image src={edmauro} width={100} height={200}/>
+                    <Image src={edmauro} width={100} height={200} alt="imagem de uma pessoa"/>
                     <p>Edmauro Goma <br/>
                         Co-Fundador<br/>
                         CTO<br></br>
@@ -261,7 +261,7 @@ export default function HomePage() {
                     </p>
                 </Box1>
                 <Box2>
-                    <Image src={clementino} width={100} height={200}/>
+                    <Image src={clementino} width={100} height={200} alt="imagem de uma pessoa"/>
                     <p>Clementino <br/>
                     Fundador <br/>
                     Administrador de Redes<br/>

@@ -70,19 +70,19 @@ export default function Home() {
           <div>
             <Link href="http://github.io">
               <a>
-                <Image src={github} />
+                <Image src={github} alt="imagem de Github" />
               </a>
             </Link>
             <Link href="http://instagram.com">
-              <Image src={instagram} />
+              <Image src={instagram} alt="imagem de instagran" />
             </Link>
             <Link href="http://linkedin.com">
-              <Image src={linkedin} />
+              <Image src={linkedin} alt="imagem de Linkedin" />
             </Link>
           </div>
         </MainText>
         <MainImage>
-          <Image src={ilu1} width={800} height={800} />
+          <Image src={ilu1} width={800} height={800} alt="imagem de ilustração" />
         </MainImage>
       </MainContainer>
     <Footer/>

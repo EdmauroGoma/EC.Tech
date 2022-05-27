@@ -59,26 +59,26 @@ function serviços() {
     <HomeSection>
 
         <SectionItem>
-            <Image src={networking} />
+            <Image src={networking} alt="imagem de redes de computadores" />
             <h3>Redes de Computadores</h3>
             <p>Prestamos os melhores serviços na montagem e manutenção da sua Redes de computadores
                 Serviços de manutenção e reparação de problemas por acesso remoto
             </p>
         </SectionItem>
         <SectionItem>
-            <Image src={programming} width={300} height={160} />
+            <Image src={programming} width={300} height={160} alt="imagem de programação" />
             <h3>Desenvolvimento Web e Mobile</h3>
             <p>Desenvolvemos sistemas de acordo a necessidade da sua empresa desde pequenos Websites a apicativos
                 com integração a API`S complexas tudo de acordo para que o seu negocio ganhe mais escalablidade
             </p>
         </SectionItem>
         <SectionItem>
-            <Image src={startup} width={200} height={200}/>
+            <Image src={startup} width={200} height={200} alt="imagem de design"/>
             <h3>Marketing Digital e Design</h3>
             <p>Publicidade feita da melhor forma pode fazer com que o seu negocio ganhe mais escalablidade em questão de clientes</p>
         </SectionItem>
         <SectionItem>
-            <Image src={seguranca} width={200} height={200}/>
+            <Image src={seguranca} width={200} height={200} alt="imagem de cctv"/>
             <h3>Circuito Televisivo de Segurança (CCTV)</h3>
             <p>Prestamos tambem serviços de CCTV automatizado para a melhor Segurança do seu negocio</p>
         </SectionItem>

@@ -55,9 +55,9 @@ function Widget() {
   return (
     <WidgetContainer >
         {isWidgetOpen && <WidgetList>
-        <a href="/HomePage">Home</a>
-        <a href="/servicos">Serviços</a>
-        <a href="/about">Sobre Nós</a>
+        <Link href="/HomePage"><a >Home</a></Link>
+        <Link href="/servicos"><a >Serviços</a></Link>
+        <Link href="/about"><a>Sobre Nós</a></Link>
         </WidgetList> }
         <WidgetButton onClick={toggleWidgetVisibility} >
             <List size={24}/>

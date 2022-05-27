@@ -111,7 +111,7 @@ export default function about() {
             </Text>
             <Boxs>
             <Box1>
-                    <Image src={edmauro} width={100} height={200}/>
+                    <Image src={edmauro} width={100} height={200} alt="imagem de uma pessoa"/>
                     <p>Edmauro Goma <br/>
                         Co-Fundador<br/>
                         CTO
@@ -121,7 +121,7 @@ export default function about() {
                     </p>
                 </Box1>
                 <Box2>
-                    <Image src={clementino} width={100} height={200}/>
+                    <Image src={clementino} width={100} height={200} alt="imagem de uma pessoa"/>
                     <p>Clementino <br/>
                     Fundador <br/>
                     Administrador de Redes<br/>

@@ -10,7 +10,7 @@ export default function Footer() {
 
 <div className={styles.footer}>
        <div className={styles.footerItems1}>
-           <Image src={logo}/>
+           <Image src={logo} alt="imagem de logo"/>
          <h2>Entre em Contacto conosco e <br/> faça o seu orçamento</h2>
          <div>
            <button><a href="https://wa.me/244953529112">Preços</a></button>
